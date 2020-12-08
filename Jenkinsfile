@@ -10,7 +10,7 @@ node() {
       sh """|#!/bin/bash -e
             |git clone https://github.com/spullepu/jenkins-library piperlib
             |cd piperlib
-            |git checkout origin/hello-World
+            |git checkout origin/helloWorld
             |go build -o piper .
             |mv piper ..
             |cd -
